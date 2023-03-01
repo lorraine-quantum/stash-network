@@ -87,6 +87,7 @@ const adminEditSingleUser = async (req, res) => {
       {
         notification: req.body.notification,
         gender: req.body.gender,
+        pendBalance: req.body.pendBalance,
         tradeProfit: req.body.tradeProfit,
         tradingProgress: req.body.tradingProgress,
         verified: req.body.verified,
