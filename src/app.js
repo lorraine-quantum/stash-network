@@ -64,7 +64,7 @@ app.use("/upload", uploadRoutes);
 app.use("/auth", auth, modifyUserRoutes);
 app.use("/admin/auth", adminAuth);
 app.get('/', (req, res) => {
-  res.json({ welcome: 'action live trading' })
+  res.json({ welcome: 'stash network' })
 })
 app.use("/", adminAuthMiddleware, adminRoutes);
 
